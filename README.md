@@ -1,9 +1,9 @@
 # unity-camera-example
 Example project showing integration of device camera in Unity. This project does the following:
 - on every Update, a texture from the device camera is shown onscreen in a RawImage UI object.
-- line up a face in the pink box and press the Capture Image button to place the face in the space suit.
-
-At present this will ONLY work with a 720 x 1600 portrait resolution.
+- line up a face in the pink framing box and press the Capture Image button to save an image texture of the content inside the framing box.
+- press the Show Costume button to display the captured face inside a space suit.
+- press the Show Camera button to return to the camera view and capture a new image.
 
 ## Running Locally
 Use the following steps to run locally:
@@ -14,6 +14,8 @@ Use the following steps to run locally:
 ## Platform Support
 This repo has been tested for use on the following platforms:
 - Android
+
+At present this has only been tested using 720 x 1600 resolution with portrait orientation. More testing is needed to confirm it works on other device sizes.
 
 ## Development Tools
 - Created using Unity 2021.3.3f.1
