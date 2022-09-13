@@ -14,8 +14,13 @@ Use the following steps to run locally:
 ## Platform Support
 This repo has been tested for use on the following platforms:
 - Android
+- iOS
 
 At present this has only been tested using 720 x 1600 resolution with portrait orientation. More testing is needed to confirm it works on other device sizes.
+
+## iOS Settings
+To get permission to access the camera on iOS, the following is required:
+- set the camera usage description in the build settings.
 
 ## Development Tools
 - Created using Unity 2021.3.3f.1
